@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97E7779C2823E58E00402FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7779B2823E58E00402FD7 /* AppDelegate.swift */; };
+		97E7779E2823E58E00402FD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7779D2823E58E00402FD7 /* SceneDelegate.swift */; };
+		97E777A12823E58E00402FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E7779F2823E58E00402FD7 /* LaunchScreen.storyboard */; };
+		97E777A42823E58E00402FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E777A22823E58E00402FD7 /* Main.storyboard */; };
+		97E777AD2823E58E00402FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E777AC2823E58E00402FD7 /* AppDelegate.swift */; };
+		97E777B02823E58E00402FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E777AE2823E58E00402FD7 /* Main.storyboard */; };
+		97E777B82823E58E00402FD7 /* Comfortable-PandA Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97E777B72823E58E00402FD7 /* Comfortable-PandA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97E777C22823E58E00402FD7 /* Comfortable-PandA Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97E777C12823E58E00402FD7 /* Comfortable-PandA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97E777C82823E58E00402FD7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 97E7778B2823E58E00402FD7 /* Main.html */; };
+		97E777C92823E58E00402FD7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 97E7778B2823E58E00402FD7 /* Main.html */; };
+		97E777CA2823E58E00402FD7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E7778D2823E58E00402FD7 /* Icon.png */; };
+		97E777CB2823E58E00402FD7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E7778D2823E58E00402FD7 /* Icon.png */; };
+		97E777CC2823E58E00402FD7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 97E7778E2823E58E00402FD7 /* Style.css */; };
+		97E777CD2823E58E00402FD7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 97E7778E2823E58E00402FD7 /* Style.css */; };
+		97E777CE2823E58E00402FD7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 97E7778F2823E58E00402FD7 /* Script.js */; };
+		97E777CF2823E58E00402FD7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 97E7778F2823E58E00402FD7 /* Script.js */; };
+		97E777D02823E58E00402FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E777902823E58E00402FD7 /* ViewController.swift */; };
+		97E777D12823E58E00402FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E777902823E58E00402FD7 /* ViewController.swift */; };
+		97E777D22823E58E00402FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E777912823E58E00402FD7 /* Assets.xcassets */; };
+		97E777D32823E58E00402FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E777912823E58E00402FD7 /* Assets.xcassets */; };
+		97E777D42823E58E00402FD7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E777932823E58E00402FD7 /* SafariWebExtensionHandler.swift */; };
+		97E777D52823E58E00402FD7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E777932823E58E00402FD7 /* SafariWebExtensionHandler.swift */; };
+		97E777F12823E58F00402FD7 /* subsakai.js in Resources */ = {isa = PBXBuildFile; fileRef = 97E777E72823E58F00402FD7 /* subsakai.js */; };
+		97E777F22823E58F00402FD7 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 97E777E82823E58F00402FD7 /* background.js */; };
+		97E777F32823E58F00402FD7 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 97E777E92823E58F00402FD7 /* css */; };
+		97E777F42823E58F00402FD7 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EA2823E58F00402FD7 /* popup.html */; };
+		97E777F52823E58F00402FD7 /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EB2823E58F00402FD7 /* 128.png */; };
+		97E777F62823E58F00402FD7 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EC2823E58F00402FD7 /* img */; };
+		97E777F72823E58F00402FD7 /* content_script.js in Resources */ = {isa = PBXBuildFile; fileRef = 97E777ED2823E58F00402FD7 /* content_script.js */; };
+		97E777F82823E58F00402FD7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EE2823E58F00402FD7 /* manifest.json */; };
+		97E777F92823E58F00402FD7 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EF2823E58F00402FD7 /* _locales */; };
+		97E777FA2823E58F00402FD7 /* views in Resources */ = {isa = PBXBuildFile; fileRef = 97E777F02823E58F00402FD7 /* views */; };
+		97E777FB2823E58F00402FD7 /* subsakai.js in Resources */ = {isa = PBXBuildFile; fileRef = 97E777E72823E58F00402FD7 /* subsakai.js */; };
+		97E777FC2823E58F00402FD7 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 97E777E82823E58F00402FD7 /* background.js */; };
+		97E777FD2823E58F00402FD7 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 97E777E92823E58F00402FD7 /* css */; };
+		97E777FE2823E58F00402FD7 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EA2823E58F00402FD7 /* popup.html */; };
+		97E777FF2823E58F00402FD7 /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EB2823E58F00402FD7 /* 128.png */; };
+		97E778002823E58F00402FD7 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EC2823E58F00402FD7 /* img */; };
+		97E778012823E58F00402FD7 /* content_script.js in Resources */ = {isa = PBXBuildFile; fileRef = 97E777ED2823E58F00402FD7 /* content_script.js */; };
+		97E778022823E58F00402FD7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EE2823E58F00402FD7 /* manifest.json */; };
+		97E778032823E58F00402FD7 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 97E777EF2823E58F00402FD7 /* _locales */; };
+		97E778042823E58F00402FD7 /* views in Resources */ = {isa = PBXBuildFile; fileRef = 97E777F02823E58F00402FD7 /* views */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97E777B92823E58E00402FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97E777852823E58D00402FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97E777B62823E58E00402FD7;
+			remoteInfo = "Comfortable-PandA Extension (iOS)";
+		};
+		97E777C32823E58E00402FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97E777852823E58D00402FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97E777C02823E58E00402FD7;
+			remoteInfo = "Comfortable-PandA Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97E777DB2823E58E00402FD7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97E777B82823E58E00402FD7 /* Comfortable-PandA Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777E22823E58E00402FD7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97E777C22823E58E00402FD7 /* Comfortable-PandA Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97E7778C2823E58E00402FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		97E7778D2823E58E00402FD7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		97E7778E2823E58E00402FD7 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		97E7778F2823E58E00402FD7 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		97E777902823E58E00402FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97E777912823E58E00402FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97E777932823E58E00402FD7 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		97E777982823E58E00402FD7 /* Comfortable-PandA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comfortable-PandA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E7779B2823E58E00402FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97E7779D2823E58E00402FD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97E777A02823E58E00402FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97E777A32823E58E00402FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97E777A52823E58E00402FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E777AA2823E58E00402FD7 /* Comfortable-PandA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comfortable-PandA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E777AC2823E58E00402FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97E777AF2823E58E00402FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97E777B12823E58E00402FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E777B22823E58E00402FD7 /* Comfortable-PandA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Comfortable-PandA.entitlements"; sourceTree = "<group>"; };
+		97E777B72823E58E00402FD7 /* Comfortable-PandA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Comfortable-PandA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E777BC2823E58E00402FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E777C12823E58E00402FD7 /* Comfortable-PandA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Comfortable-PandA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E777C62823E58E00402FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E777C72823E58E00402FD7 /* Comfortable-PandA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Comfortable-PandA.entitlements"; sourceTree = "<group>"; };
+		97E777E72823E58F00402FD7 /* subsakai.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = subsakai.js; path = ../resources/subsakai.js; sourceTree = "<group>"; };
+		97E777E82823E58F00402FD7 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../resources/background.js; sourceTree = "<group>"; };
+		97E777E92823E58F00402FD7 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../resources/css; sourceTree = "<group>"; };
+		97E777EA2823E58F00402FD7 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../resources/popup.html; sourceTree = "<group>"; };
+		97E777EB2823E58F00402FD7 /* 128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 128.png; path = ../resources/128.png; sourceTree = "<group>"; };
+		97E777EC2823E58F00402FD7 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../resources/img; sourceTree = "<group>"; };
+		97E777ED2823E58F00402FD7 /* content_script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content_script.js; path = ../resources/content_script.js; sourceTree = "<group>"; };
+		97E777EE2823E58F00402FD7 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../resources/manifest.json; sourceTree = "<group>"; };
+		97E777EF2823E58F00402FD7 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../resources/_locales; sourceTree = "<group>"; };
+		97E777F02823E58F00402FD7 /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; name = views; path = ../resources/views; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97E777952823E58E00402FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777A72823E58E00402FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777B42823E58E00402FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777BE2823E58E00402FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97E777842823E58D00402FD7 = {
+			isa = PBXGroup;
+			children = (
+				97E777892823E58E00402FD7 /* Shared (App) */,
+				97E777922823E58E00402FD7 /* Shared (Extension) */,
+				97E7779A2823E58E00402FD7 /* iOS (App) */,
+				97E777AB2823E58E00402FD7 /* macOS (App) */,
+				97E777BB2823E58E00402FD7 /* iOS (Extension) */,
+				97E777C52823E58E00402FD7 /* macOS (Extension) */,
+				97E777992823E58E00402FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97E777892823E58E00402FD7 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				97E777902823E58E00402FD7 /* ViewController.swift */,
+				97E777912823E58E00402FD7 /* Assets.xcassets */,
+				97E7778A2823E58E00402FD7 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		97E7778A2823E58E00402FD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97E7778B2823E58E00402FD7 /* Main.html */,
+				97E7778D2823E58E00402FD7 /* Icon.png */,
+				97E7778E2823E58E00402FD7 /* Style.css */,
+				97E7778F2823E58E00402FD7 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		97E777922823E58E00402FD7 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				97E777E62823E58F00402FD7 /* Resources */,
+				97E777932823E58E00402FD7 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		97E777992823E58E00402FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97E777982823E58E00402FD7 /* Comfortable-PandA.app */,
+				97E777AA2823E58E00402FD7 /* Comfortable-PandA.app */,
+				97E777B72823E58E00402FD7 /* Comfortable-PandA Extension.appex */,
+				97E777C12823E58E00402FD7 /* Comfortable-PandA Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97E7779A2823E58E00402FD7 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				97E7779B2823E58E00402FD7 /* AppDelegate.swift */,
+				97E7779D2823E58E00402FD7 /* SceneDelegate.swift */,
+				97E7779F2823E58E00402FD7 /* LaunchScreen.storyboard */,
+				97E777A22823E58E00402FD7 /* Main.storyboard */,
+				97E777A52823E58E00402FD7 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		97E777AB2823E58E00402FD7 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				97E777AC2823E58E00402FD7 /* AppDelegate.swift */,
+				97E777AE2823E58E00402FD7 /* Main.storyboard */,
+				97E777B12823E58E00402FD7 /* Info.plist */,
+				97E777B22823E58E00402FD7 /* Comfortable-PandA.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		97E777BB2823E58E00402FD7 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				97E777BC2823E58E00402FD7 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		97E777C52823E58E00402FD7 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				97E777C62823E58E00402FD7 /* Info.plist */,
+				97E777C72823E58E00402FD7 /* Comfortable-PandA.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		97E777E62823E58F00402FD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97E777E72823E58F00402FD7 /* subsakai.js */,
+				97E777E82823E58F00402FD7 /* background.js */,
+				97E777E92823E58F00402FD7 /* css */,
+				97E777EA2823E58F00402FD7 /* popup.html */,
+				97E777EB2823E58F00402FD7 /* 128.png */,
+				97E777EC2823E58F00402FD7 /* img */,
+				97E777ED2823E58F00402FD7 /* content_script.js */,
+				97E777EE2823E58F00402FD7 /* manifest.json */,
+				97E777EF2823E58F00402FD7 /* _locales */,
+				97E777F02823E58F00402FD7 /* views */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97E777972823E58E00402FD7 /* Comfortable-PandA (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E777DC2823E58E00402FD7 /* Build configuration list for PBXNativeTarget "Comfortable-PandA (iOS)" */;
+			buildPhases = (
+				97E777942823E58E00402FD7 /* Sources */,
+				97E777952823E58E00402FD7 /* Frameworks */,
+				97E777962823E58E00402FD7 /* Resources */,
+				97E777DB2823E58E00402FD7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97E777BA2823E58E00402FD7 /* PBXTargetDependency */,
+			);
+			name = "Comfortable-PandA (iOS)";
+			productName = "Comfortable-PandA (iOS)";
+			productReference = 97E777982823E58E00402FD7 /* Comfortable-PandA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97E777A92823E58E00402FD7 /* Comfortable-PandA (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E777E32823E58E00402FD7 /* Build configuration list for PBXNativeTarget "Comfortable-PandA (macOS)" */;
+			buildPhases = (
+				97E777A62823E58E00402FD7 /* Sources */,
+				97E777A72823E58E00402FD7 /* Frameworks */,
+				97E777A82823E58E00402FD7 /* Resources */,
+				97E777E22823E58E00402FD7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97E777C42823E58E00402FD7 /* PBXTargetDependency */,
+			);
+			name = "Comfortable-PandA (macOS)";
+			productName = "Comfortable-PandA (macOS)";
+			productReference = 97E777AA2823E58E00402FD7 /* Comfortable-PandA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97E777B62823E58E00402FD7 /* Comfortable-PandA Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E777D82823E58E00402FD7 /* Build configuration list for PBXNativeTarget "Comfortable-PandA Extension (iOS)" */;
+			buildPhases = (
+				97E777B32823E58E00402FD7 /* Sources */,
+				97E777B42823E58E00402FD7 /* Frameworks */,
+				97E777B52823E58E00402FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comfortable-PandA Extension (iOS)";
+			productName = "Comfortable-PandA Extension (iOS)";
+			productReference = 97E777B72823E58E00402FD7 /* Comfortable-PandA Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		97E777C02823E58E00402FD7 /* Comfortable-PandA Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E777DF2823E58E00402FD7 /* Build configuration list for PBXNativeTarget "Comfortable-PandA Extension (macOS)" */;
+			buildPhases = (
+				97E777BD2823E58E00402FD7 /* Sources */,
+				97E777BE2823E58E00402FD7 /* Frameworks */,
+				97E777BF2823E58E00402FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comfortable-PandA Extension (macOS)";
+			productName = "Comfortable-PandA Extension (macOS)";
+			productReference = 97E777C12823E58E00402FD7 /* Comfortable-PandA Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97E777852823E58D00402FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					97E777972823E58E00402FD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					97E777A92823E58E00402FD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					97E777B62823E58E00402FD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					97E777C02823E58E00402FD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 97E777882823E58D00402FD7 /* Build configuration list for PBXProject "Comfortable-PandA" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97E777842823E58D00402FD7;
+			productRefGroup = 97E777992823E58E00402FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97E777972823E58E00402FD7 /* Comfortable-PandA (iOS) */,
+				97E777A92823E58E00402FD7 /* Comfortable-PandA (macOS) */,
+				97E777B62823E58E00402FD7 /* Comfortable-PandA Extension (iOS) */,
+				97E777C02823E58E00402FD7 /* Comfortable-PandA Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97E777962823E58E00402FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E777CA2823E58E00402FD7 /* Icon.png in Resources */,
+				97E777A12823E58E00402FD7 /* LaunchScreen.storyboard in Resources */,
+				97E777C82823E58E00402FD7 /* Main.html in Resources */,
+				97E777CE2823E58E00402FD7 /* Script.js in Resources */,
+				97E777D22823E58E00402FD7 /* Assets.xcassets in Resources */,
+				97E777A42823E58E00402FD7 /* Main.storyboard in Resources */,
+				97E777CC2823E58E00402FD7 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777A82823E58E00402FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E777CB2823E58E00402FD7 /* Icon.png in Resources */,
+				97E777CD2823E58E00402FD7 /* Style.css in Resources */,
+				97E777B02823E58E00402FD7 /* Main.storyboard in Resources */,
+				97E777CF2823E58E00402FD7 /* Script.js in Resources */,
+				97E777D32823E58E00402FD7 /* Assets.xcassets in Resources */,
+				97E777C92823E58E00402FD7 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777B52823E58E00402FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E778032823E58F00402FD7 /* _locales in Resources */,
+				97E778002823E58F00402FD7 /* img in Resources */,
+				97E778012823E58F00402FD7 /* content_script.js in Resources */,
+				97E777FD2823E58F00402FD7 /* css in Resources */,
+				97E777FE2823E58F00402FD7 /* popup.html in Resources */,
+				97E778042823E58F00402FD7 /* views in Resources */,
+				97E778022823E58F00402FD7 /* manifest.json in Resources */,
+				97E777FC2823E58F00402FD7 /* background.js in Resources */,
+				97E777FB2823E58F00402FD7 /* subsakai.js in Resources */,
+				97E777FF2823E58F00402FD7 /* 128.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777BF2823E58E00402FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E777F92823E58F00402FD7 /* _locales in Resources */,
+				97E777F62823E58F00402FD7 /* img in Resources */,
+				97E777F72823E58F00402FD7 /* content_script.js in Resources */,
+				97E777F32823E58F00402FD7 /* css in Resources */,
+				97E777F42823E58F00402FD7 /* popup.html in Resources */,
+				97E777FA2823E58F00402FD7 /* views in Resources */,
+				97E777F82823E58F00402FD7 /* manifest.json in Resources */,
+				97E777F22823E58F00402FD7 /* background.js in Resources */,
+				97E777F12823E58F00402FD7 /* subsakai.js in Resources */,
+				97E777F52823E58F00402FD7 /* 128.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97E777942823E58E00402FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E777D02823E58E00402FD7 /* ViewController.swift in Sources */,
+				97E7779C2823E58E00402FD7 /* AppDelegate.swift in Sources */,
+				97E7779E2823E58E00402FD7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777A62823E58E00402FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E777D12823E58E00402FD7 /* ViewController.swift in Sources */,
+				97E777AD2823E58E00402FD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777B32823E58E00402FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E777D42823E58E00402FD7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E777BD2823E58E00402FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E777D52823E58E00402FD7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97E777BA2823E58E00402FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97E777B62823E58E00402FD7 /* Comfortable-PandA Extension (iOS) */;
+			targetProxy = 97E777B92823E58E00402FD7 /* PBXContainerItemProxy */;
+		};
+		97E777C42823E58E00402FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97E777C02823E58E00402FD7 /* Comfortable-PandA Extension (macOS) */;
+			targetProxy = 97E777C32823E58E00402FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97E7778B2823E58E00402FD7 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E7778C2823E58E00402FD7 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		97E7779F2823E58E00402FD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E777A02823E58E00402FD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		97E777A22823E58E00402FD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E777A32823E58E00402FD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97E777AE2823E58E00402FD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E777AF2823E58E00402FD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97E777D62823E58E00402FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97E777D72823E58E00402FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		97E777D92823E58E00402FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable-PandA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 5.0.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortablePandA.Safari.Extension;
+				PRODUCT_NAME = "Comfortable-PandA Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97E777DA2823E58E00402FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable-PandA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 5.0.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortablePandA.Safari.Extension;
+				PRODUCT_NAME = "Comfortable-PandA Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97E777DD2823E58E00402FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable-PandA";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.0.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortablePandA.Safari;
+				PRODUCT_NAME = "Comfortable-PandA";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97E777DE2823E58E00402FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable-PandA";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.0.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortablePandA.Safari;
+				PRODUCT_NAME = "Comfortable-PandA";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97E777E02823E58E00402FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Comfortable-PandA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable-PandA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 5.0.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortablePandA.Safari.Extension;
+				PRODUCT_NAME = "Comfortable-PandA Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		97E777E12823E58E00402FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Comfortable-PandA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable-PandA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 5.0.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortablePandA.Safari.Extension;
+				PRODUCT_NAME = "Comfortable-PandA Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		97E777E42823E58E00402FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Comfortable-PandA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable-PandA";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 5.0.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortablePandA.Safari;
+				PRODUCT_NAME = "Comfortable-PandA";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		97E777E52823E58E00402FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Comfortable-PandA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable-PandA";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 5.0.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortablePandA.Safari;
+				PRODUCT_NAME = "Comfortable-PandA";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97E777882823E58D00402FD7 /* Build configuration list for PBXProject "Comfortable-PandA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E777D62823E58E00402FD7 /* Debug */,
+				97E777D72823E58E00402FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E777D82823E58E00402FD7 /* Build configuration list for PBXNativeTarget "Comfortable-PandA Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E777D92823E58E00402FD7 /* Debug */,
+				97E777DA2823E58E00402FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E777DC2823E58E00402FD7 /* Build configuration list for PBXNativeTarget "Comfortable-PandA (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E777DD2823E58E00402FD7 /* Debug */,
+				97E777DE2823E58E00402FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E777DF2823E58E00402FD7 /* Build configuration list for PBXNativeTarget "Comfortable-PandA Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E777E02823E58E00402FD7 /* Debug */,
+				97E777E12823E58E00402FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E777E32823E58E00402FD7 /* Build configuration list for PBXNativeTarget "Comfortable-PandA (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E777E42823E58E00402FD7 /* Debug */,
+				97E777E52823E58E00402FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97E777852823E58D00402FD7 /* Project object */;
+}
